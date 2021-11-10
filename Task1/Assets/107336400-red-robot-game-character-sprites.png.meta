@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: 4ba3ea5c9613e474e9f7688421599c86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1062541797121469438
+    second: 107336400-red-robot-game-character-sprites_3
+  - first:
+      213: -2675696569377089156
+    second: 107336400-red-robot-game-character-sprites_4
+  - first:
+      213: -6387990272153624789
+    second: 107336400-red-robot-game-character-sprites_5
+  - first:
+      213: 3086575485947567703
+    second: 107336400-red-robot-game-character-sprites_6
+  - first:
+      213: 1405846891731205062
+    second: 107336400-red-robot-game-character-sprites_7
+  - first:
+      213: -6522563841272949679
+    second: 107336400-red-robot-game-character-sprites_8
+  - first:
+      213: -7839132174362356444
+    second: 107336400-red-robot-game-character-sprites_9
+  - first:
+      213: -8647987450933559738
+    second: 107336400-red-robot-game-character-sprites_10
+  - first:
+      213: 8872191386174159929
+    second: 107336400-red-robot-game-character-sprites_11
+  - first:
+      213: 787938292970877574
+    second: 107336400-red-robot-game-character-sprites_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 1300
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 43, y: 4, z: 1184, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0361783fd11802ee0800000000000000
+      internalID: -1287887527788210640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 1300
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 116, y: 4, z: 1107, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479a097e8a4c0dc70800000000000000
+      internalID: 8993904685577447796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 1300
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 116, y: 4, z: 1107, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46ce6ad1331526e0800000000000000
+      internalID: -1863061766008814003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 1300
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 195, y: 4, z: 1030, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204d1977dd71141f0800000000000000
+      internalID: -1062541797121469438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 882
+        width: 1300
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 269, y: 4, z: 956, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c791c8785240edad0800000000000000
+      internalID: -2675696569377089156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 883
+        width: 1300
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 357, y: 4, z: 868, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fd1a741bc4957a0800000000000000
+      internalID: -6387990272153624789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 883
+        width: 1300
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 441, y: 4, z: 785, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e55541d08b5da20800000000000000
+      internalID: 3086575485947567703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 1300
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 45, y: 4, z: 1184, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbb93eac42928310800000000000000
+      internalID: 1405846891731205062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 1300
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 120, y: 4, z: 1100, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1545e109eb23b75a0800000000000000
+      internalID: -6522563841272949679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 1300
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 204, y: 4, z: 1011, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425dbc722dec53390800000000000000
+      internalID: -7839132174362356444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 1300
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 300, y: 4, z: 914, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64eb11d7b3d2cf780800000000000000
+      internalID: -8647987450933559738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 1300
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 398, y: 4, z: 825, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cf0301f0b502b70800000000000000
+      internalID: 8872191386174159929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107336400-red-robot-game-character-sprites_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766
+        width: 1300
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 485, y: 4, z: 741, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682f479e3b15fea00800000000000000
+      internalID: 787938292970877574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

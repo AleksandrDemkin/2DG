@@ -12,9 +12,9 @@ namespace TdgMvc
 
         public Action<LevelObjectView> OnLevelObjectContact { get; set; }
 
-        private void OnTriggerEnter(Collider2D _collider)
+        private void OnTriggerEnter(Collider other)
         {
-            var levelObject = _collider.gameObject.GetComponent<LevelObjectView>();
+            LevelObjectView levelObject = _collider.gameObject.GetComponent<LevelObjectView>();
             OnLevelObjectContact?.Invoke(levelObject);
         }
     }

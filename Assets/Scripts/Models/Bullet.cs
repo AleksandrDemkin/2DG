@@ -18,8 +18,13 @@ namespace TdgMvc
             _view.Transform.position = position;
             _view.Rigidbody2D.velocity = Vector2.zero;
             _view.Rigidbody2D.angularVelocity = 0;
-            _view.Rigidbody2D.AddForce(velocity, ForceMode2D.Impulse);
+            _view.Rigidbody2D .AddForce(velocity, ForceMode2D.Impulse);
             _view.SetVisible(true);
+        }
+
+        public void Update()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

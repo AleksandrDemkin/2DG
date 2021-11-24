@@ -9,19 +9,19 @@ namespace TdgMvc
         private const float _animationSpeed = 10;
 
         private LevelObjectView _characterView;
-        private SpriteAnimatorController _spriteAnimator;
+        private SpriteAnimatorController _foodAnimator;
         private List<LevelObjectView> _foodWiews;
 
-        public FoodController(LevelObjectView characterView, List<LevelObjectView> foodWiews, SpriteAnimatorController spriteAnimator)
+        public FoodController(LevelObjectView characterView, List<LevelObjectView> foodWiews, SpriteAnimatorController foodAnimator)
         {
             _characterView = characterView;
             _foodWiews = foodWiews;
-            _spriteAnimator = spriteAnimator;
+            _foodAnimator = foodAnimator;
             _characterView.OnLevelObjectContact += OnLevelObjectContact;
 
-            foreach (var foodWiew in foodWiews)
+            foreach (LevelObjectView foodWiew in _foodWiews)
             {
-                spriteAnimator.StartAnimation(foodWiew._spriteRenderer, AnimState.Food, true, _animationSpeed);
+                foodAnimator.StartAnimation(foodWiew._spriteRenderer, AnimState.Food, true, _animationSpeed);
             }
         }
 
@@ -29,7 +29,7 @@ namespace TdgMvc
         {
             if (_foodWiews.Contains(contactView))
             {
-                _spriteAnimator.StopAnimation(contactView._spriteRenderer);
+                _foodAnimator.StopAnimation(contactView._spriteRenderer);
                 GameObject.Destroy(contactView.gameObject);
             }
         }

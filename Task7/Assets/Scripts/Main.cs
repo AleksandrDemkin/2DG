@@ -12,6 +12,7 @@ namespace TdgMvc
         [SerializeField] private LevelObjectView _playerView;
         [SerializeField] private CannonView _cannonView;
         [SerializeField] private List<LevelObjectView> _foodViews;
+        [SerializeField] private QuestView _questView;
 
         private SpriteAnimatorController _playerAnimator;
         private SpriteAnimatorController _foodAnimator;
@@ -20,6 +21,7 @@ namespace TdgMvc
         private EmitterController _emitterController;
         private CannonAimController _cannonAimController;
         private FoodController _foodController;
+        private QuestConfiguratorController _questConfigurator;
 
         private void Start()
         {
@@ -44,6 +46,9 @@ namespace TdgMvc
 
             _cannonAimController = new CannonAimController(_cannonView._barrelTransform, _playerView._transform);
             _emitterController = new EmitterController(_cannonView._bullets, _cannonView._emitterTransform);
+
+            _questConfigurator = new QuestConfiguratorController(_questView);
+            _questConfigurator.Init();
         }
 
         private void Update()

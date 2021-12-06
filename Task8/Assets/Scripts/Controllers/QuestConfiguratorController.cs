@@ -28,8 +28,8 @@ namespace TdgMvc
         private readonly Dictionary<QuestType, Func<IQuestModel>> _questFactories = new
             Dictionary<QuestType, Func<IQuestModel>>(1);
         
-        private readonly Dictionary<QuestStoryType, Func<IQuest, IQuestStory>> _questStoryFactories = new
-            Dictionary<QuestStoryType, Func<IQuest, IQuestStory>> (2);
+        private readonly Dictionary<QuestStoryType, Func<List<IQuest>, IQuestStory>> _questStoryFactories = new
+            Dictionary<QuestStoryType, Func<List<IQuest>, IQuestStory>>(2);
 
         public void Init()
         {
